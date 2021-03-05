@@ -1,0 +1,8 @@
+#系统级配置
+spring:
+  cloud:
+    config:
+      name: config-client
+      profile: test
+      uri: http://localhost:3344
+      label: master
